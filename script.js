@@ -22,6 +22,15 @@ class libro {
 
 }
 
-let nuevoLibro = new libro("Fuego y Sangre","GEORGE R. R. MARTIN")
+const libro1 = new libro("Ángeles y Demonios", "Dan Brown");
+console.log(libro1);
 
-nuevoLibro.mostrarDatos('consola')
+libro1.mostrarDatos("consola");
+libro1.mostrarDatos("alert");
+
+let nuevolibro = new libro('Fuego y Sangre', 'George R. R. Martin');
+let tituloDelNuevoLibro = nuevolibro.getTitulo();
+
+nuevolibro.mostrarDatos("consola")
+nuevolibro.mostrarDatos("alert")
+nuevolibro.mostrarDatos()
